@@ -296,7 +296,7 @@ export default {
           ClashR: "clashr",
           Surge2: "surge&ver=2",
         },
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
+        backendOptions: [{ value: "http://nas.tutool.top:25500/sub?" }, { value: "http://127.0.0.1:25500/sub?" }],
         remoteConfig: [
           {
             label: "universal",
@@ -305,6 +305,11 @@ export default {
                 label: "No-Urltest",
                 value:
                   "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/universal/no-urltest.ini"
+              },
+              {
+                label: "TuTool",
+                value:
+                  "https://ghproxy.com/https://raw.githubusercontent.com/double-tu/sub-rules/master/subconverter_config.ini"
               },
               {
                 label: "Urltest",
