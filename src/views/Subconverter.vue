@@ -309,7 +309,7 @@ export default {
               {
                 label: "TuTool",
                 value:
-                  "https://ghproxy.com/https://raw.githubusercontent.com/double-tu/sub-rules/master/subconverter_config.ini"
+                  "https://raw.githubusercontent.com/double-tu/sub-rules/master/subconverter_config.ini"
               },
               {
                 label: "Urltest",
